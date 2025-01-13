@@ -23,6 +23,11 @@
 
             <button type="submit" class="btn btn-primary w-100">Login</button>
         </form>
+
+        <div class="text-center mt-4">
+            <a href="register.php" class="btn btn-link">Don't have an account? Register here</a>
+        </div>
+        
         <p id="message" class="mt-3 text-center"></p>
     </div>
 

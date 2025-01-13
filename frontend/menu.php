@@ -25,6 +25,7 @@ if (!$user_id) {
         <div id="menu" class="row row-cols-1 row-cols-md-3 g-4"></div>
 
         <div class="d-flex justify-content-center mt-4">
+        <button class="btn btn-outline-success" onclick="window.location.href='view_order.php'">View Order</button>
             <button class="btn btn-outline-danger" onclick="window.location.href='logout.php'">Logout</button>
         </div>
     </div>

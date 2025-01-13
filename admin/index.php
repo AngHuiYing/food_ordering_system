@@ -14,6 +14,7 @@
         <!-- Admin Actions -->
         <div class="text-center mb-4">
             <a href="add_food.php" class="btn btn-success">Add Food</a>
+            <a href="view_order.php" class="btn btn-success">View Orders</a>
             <a href="../frontend/logout.php" class="btn btn-danger">Logout</a>
         </div>
 
