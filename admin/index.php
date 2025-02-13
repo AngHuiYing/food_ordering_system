@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['admin_id'])) {
+    echo "<script>alert('Please login first'); window.location.href = '../admin/login.php';</script>";
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

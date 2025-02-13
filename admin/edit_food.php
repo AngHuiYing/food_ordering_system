@@ -2,6 +2,11 @@
 // 引入数据库连接文件
 include_once '../db.php'; // 请根据实际路径修改
 
+if (!isset($_SESSION['admin_id'])) {
+    echo "<script>alert('Please login first'); window.location.href = '../admin/login.php';</script>";
+    exit();
+}
+
 // Fetch the food item to edit
 if (isset($_GET['id'])) {
     $foodId = $_GET['id'];
