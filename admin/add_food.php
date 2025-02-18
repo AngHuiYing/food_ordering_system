@@ -1,10 +1,5 @@
 <?php
-session_start();
-
-if (!isset($_SESSION['admin_id'])) {
-    echo "<script>alert('Please login first'); window.location.href = '../admin/login.php';</script>";
-    exit();
-}
+session_start(); // 启用 session
 ?>
 
 <!DOCTYPE html>

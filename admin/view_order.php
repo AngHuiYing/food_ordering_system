@@ -1,11 +1,5 @@
 <?php
-session_start();
-include '../db.php'; // 引入 PDO 数据库连接文件
-
-if (!isset($_SESSION['admin_id'])) {
-    echo "<script>alert('Please login first'); window.location.href = '../admin/login.php';</script>";
-    exit();
-}
+include_once('../db.php');
 
 // 查询所有用户的订单及菜品数据
 $query = "
